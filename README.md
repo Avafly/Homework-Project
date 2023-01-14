@@ -1,0 +1,1 @@
+This repository is used to store some homework and projects. Click the folder for detail.
