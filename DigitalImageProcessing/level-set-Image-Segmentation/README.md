@@ -5,28 +5,19 @@
 In this assignment, I implemented a level-set image segmentation method on Matlab by using Geodesic Active Contour formulation [[ref](https://link.springer.com/article/10.1023/A:1007979827043)]. Mathematically, the meaning of code can be represented as follows.
 
 In this model, the implicit zero level-set contour is evolving over time, and its update is defined as a time-dependent PDE as follows:
-$$
-\begin{equation}
-\begin{split}
-\frac{\partial u}{\partial t} &= g(I) \left| \nabla u \right| \text{div} (\frac{\nabla u}{\left| \nabla u \right|}) + cg(I) \left| \nabla u \right| \\
-&= g(I)(c+k) \left| \nabla u \right|
-\end{split} .
-\end{equation}
-$$
-Here, $u$ is the distance field, $g$ is the edge indicator term, $c$ is a constant weight, and $k$ is the curvature term. A commonly used edge indicator term is as follows.
-$$
-\begin{equation}
-g = \frac{1}{1+\left| \nabla \hat{I} \right|^p},
-\end{equation}
-$$
-where $\hat{I}$ stands for a smoothed version of the input image $I$, and $p=2$. This edge indicator works as follows: when the level-set curve is moving closer to edges, then the magnitude of gradient becomes larger and therefore $g$ becomes smaller, which makes the movement of the curve smaller.
 
-The distance of field $u$ can be calculated as follows.
-$$
-\begin{equation}
-u' = u+dt(g(I)(c+k)\left| \nabla u \right|).
-\end{equation}
-$$
+<img src="./equations/1.png" alt="image1" height="85" align="center"/>
+
+Here, u is the distance field, g is the edge indicator term, c is a constant weight, and k is the curvature term. A commonly used edge indicator term is as follows.
+
+<img src="./equations/2.png" alt="image2" height="65" align="center"/>
+
+where Î stands for a smoothed version of the input image I, and p=2. This edge indicator works as follows: when the level-set curve is moving closer to edges, then the magnitude of gradient becomes larger and therefore g becomes smaller, which makes the movement of the curve smaller.
+
+The distance of field u can be calculated as follows.
+
+<img src="./equations/3.png" alt="image3" height="45" align="center"/>
+
 
 
 ### Content of HW
@@ -54,14 +45,12 @@ I have to edit following files:
 I performed Gaussian smoothing to input image and then compute the gradient and its magnitude.
 
 **Central difference**
-$$
-\frac{f(x+1)-f(x-1)}{2},
-$$
+
+<img src="./equations/4.png" alt="image4" height="60" align="center"/>
+
 **Magnitude of the gradient**
-$$
-\nabla f = (G^2_x + G^2_y)^{\frac{1}{2}} \\
-\nabla f \approx \left| G_x \right| + \left| G_y \right|
-$$
+
+<img src="./equations/5.png" alt="image5" height="75" align="center"/>
 
 
 ```matlab
@@ -90,7 +79,7 @@ g = 1 ./ (1+(gradient_I.^p));
 
 #### In `levelset_update.m`
 
-Compute $\frac{\nabla u}{\left| \nabla u \right|}$.
+Compute ∇u/|∇u|.
 
 ```matlab
 [dPhi_x, dPhi_y] = gra(phi_in);
@@ -100,16 +89,11 @@ dPhi_x = dPhi_x ./ dPhi;
 dPhi_y = dPhi_y ./ dPhi;
 ```
 
-Next, compute $\text{div} (\frac{\nabla u}{\left| \nabla u \right|})$. The divergence formula can be performed as follows.
-$$
-A(x,y,z) = P(x,y,z)i + Q(x,y,z)j + R(x,y,z)k,
-$$
+Next, compute div(∇u/|∇u|). The divergence formula can be performed as follows.
 
-$$
-divA = \frac{\partial P}{\partial x} + \frac{\partial Q}{\partial y} + \frac{\partial R}{\partial k}.
-$$
+<img src="./equations/6.png" alt="image6" height="95" align="center"/>
 
-Therefore, I set `dPhi_x` as $P$, `dPhi_y` as $Q$, and calculate $\text{div} (\frac{\nabla u}{\left| \nabla u \right|})$, as follows.
+Therefore, I set `dPhi_x` as P, `dPhi_y` as Q, and calculate div(∇u/|∇u|), as follows.
 
 ```matlab
 [phix_x, temp] = gra(dPhi_x);
