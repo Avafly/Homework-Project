@@ -1,4 +1,4 @@
-## 📕Homework 1
+## 📕Assignment 1
 
 Understand and implement the Kernel System Call.
 
@@ -16,7 +16,7 @@ Understand and implement the Kernel System Call.
   * The push function ignores the data that is already in the stack.
   * The pop function takes the top data off the stack and prints it.
 
-#### What I done
+#### What did I do
 
 I have to edit or make following files for:
 

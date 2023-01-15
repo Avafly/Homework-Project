@@ -1,4 +1,4 @@
-## 📕Homework 2
+## 📕Assignment 2
 
 This project measures and records the CPU occupation time of the process by using kernel C function on Linux kernel mode to analyzes the process and Linux scheduling.
 
@@ -17,7 +17,7 @@ This project measures and records the CPU occupation time of the process by usin
 
 CPU burst info.
 
-#### What I done
+#### What did I do
 
 * Analyzed `sched_info_depart()` function in `/kernel/sched/sched.h`.
 
