@@ -34,9 +34,9 @@ I have to edit the following files:
 
 #### Results
 
-| <img src="./images/image1.png" alt="image1" height="450" /> | <img src="./images/image2.png" alt="image2" height="450" /> |
-| ----------------------------------------------------------- | ----------------------------------------------------------- |
-| <img src="./images/image3.png" alt="image3" height="450" /> | <img src="./images/image4.png" alt="image4" height="450" /> |
+| <img src="./images/image1.png" alt="image1" height="450" width="315"/> | <img src="./images/image2.png" alt="image2" height="450" width="340" /> |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| <img src="./images/image3.png" alt="image3" height="450" width="328"/> | <img src="./images/image4.png" alt="image4" height="450" width="328"/> |
 
 
 
