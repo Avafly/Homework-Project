@@ -10,7 +10,7 @@ A melody player that does not need touch.
 
 
 
-<img src="./img_des.jpeg" alt="img_des" height="450" />
+<img src="./img_des.jpeg" alt="img_des" height="675" />
 
 **This product consists of 5 components:**
 
