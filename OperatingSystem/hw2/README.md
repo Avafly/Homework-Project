@@ -2,7 +2,7 @@
 
 This project measures and records the CPU occupation time of the process by using kernel C function on Linux kernel mode to analyzes the process and Linux scheduling.
 
-#### Goals of this work
+#### Goal of this work
 
 * Modify the Linux scheduler code.
 * Measure and analyze the CPU burst of my system.

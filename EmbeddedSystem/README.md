@@ -1,6 +1,6 @@
 ## 📕Sonar Player
 
-### Goals of this work
+### Goal of this work
 
 Develop the prototype of a product using Arduino.
 

@@ -1,6 +1,6 @@
 ## 📕Level-set Image Segmentation
 
-### Goals of this work
+### Goal of this work
 
 In this assignment, I implemented a level-set image segmentation method on Matlab by using Geodesic Active Contour formulation [[ref](https://link.springer.com/article/10.1023/A:1007979827043)]. Mathematically, the meaning of code can be represented as follows.
 

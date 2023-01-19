@@ -2,7 +2,7 @@
 
 Understand and implement the Kernel System Call.
 
-#### Goals of this work
+#### Goal of this work
 
 * Modify and compile the Linux source code, and add a new System Call.
 * Make a program that uses this System Call.
