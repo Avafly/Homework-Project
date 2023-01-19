@@ -10,7 +10,7 @@ A melody player that does not need touch.
 
 
 
-<img src="./img_des.jpeg" alt="img_des" style="zoom: 25%;" />
+<img src="./img_des.jpeg" alt="img_des" height="450" />
 
 **This product consists of 5 components:**
 
@@ -23,6 +23,10 @@ Sonar measures the distance of object (e.g., hand).
 Mode indicator displays the rhythm type.
 
 Speaker plays the melody according to the predetermined frequency.
+
+
+
+----
 
 
 
