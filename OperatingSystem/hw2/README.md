@@ -56,4 +56,4 @@ CPU burst info.
 
 
 
-For more detail measurement record, see [[here](https://github.com/Avafly/OperatingSystem-HW/blob/master/hw2/os2_2017320215/Project2%20CPU%20burst.xlsx)].
+For more detail measurement record, see [[here](https://github.com/Avafly/Homework-Project/blob/master/OperatingSystem/hw2/os2_2017320215/Project2%20CPU%20burst.xlsx)].
