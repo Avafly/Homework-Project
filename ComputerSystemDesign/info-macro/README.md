@@ -6,4 +6,4 @@ Write my own debugging macro in ARM assembly. The macro prints out all the regis
 
 ## Demo
 
-<img src="./result_example.png" alt="result_example" style="zoom: 15%;" />
+<img src="./result_example.png" alt="result_example" width="450" />
