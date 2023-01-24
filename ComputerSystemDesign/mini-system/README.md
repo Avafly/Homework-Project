@@ -4,7 +4,7 @@
 
 Writing a mini system using ARM language on Xilinx Zynq-7000 device. 3 tasks (written in C) will be provided, and they have to run on the system continuously in a round-robin fashion. Each application runs forever (i.e., never exits).
 
-The following is a brief description about 3 tasks.
+The following is a brief description of 3 tasks.
 
 * Tasks1: Selection-sorting. Its outcome is displayed on LEDs.
 * Tasks2: DhryStone Benchmark. It is used to measure the CPU performance. The benchmark is composed of several functions. Each function name is printed via UART after execution. After the execution of the whole benchmark, a message **'Task2 finished'** will be printed on UART console.
