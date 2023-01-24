@@ -40,6 +40,6 @@ I have to edit or make following files for:
 
 
 
-Source code can be found [[here](https://github.com/Avafly/OperatingSystem-HW/tree/master/hw1/os1_2017320215/os1_2017320215)].
+Source code can be found [[here](https://github.com/Avafly/Homework-Project/tree/master/OperatingSystem/hw1/os1_2017320215/os1_2017320215)].
 
-Homework report can be found [[here](https://github.com/Avafly/OperatingSystem-HW/blob/master/hw1/os1_2017320215/report.docx)].
+Homework report can be found [[here](https://github.com/Avafly/Homework-Project/blob/master/OperatingSystem/hw1/os1_2017320215/report.docx)].
