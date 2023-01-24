@@ -36,7 +36,7 @@ The application programs run in **User mode**.
 
 The procedure has two parts: 1. starting tasks, 2. All tasks have been started.
 
-When there are still tasks that have not been started, system will start them in sequence. The `openTask` parameter is used to count the started tasks and record the PC of the next task to be opened for the next branching. Note that interrupt occurs 1 ms once, thus the data in the registers are saved to the stack in `csd_IRQ_ISR` part to avoid data loss.
+When there are still tasks that have not been started, system will start them in sequence. The `openTask` parameter is used to count the started tasks and record the program counter (PC) of the next task to be opened for the next branching. Note that interrupt occurs 1 ms once, thus the data in the registers are saved to the stack in `csd_IRQ_ISR` part to avoid data loss.
 
 Once all tasks are started, the system switches between each program by interrupt, and the process is to save the current task's data from the register to the stack and load the next task's data from the stack into the register.
 
