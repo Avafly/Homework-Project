@@ -1,1 +1,1 @@
-在Xilinx Zynq-7000 device上使用arm汇编 code.
+Write ARM assembly code on Xilinx Zynq-7000 device.
