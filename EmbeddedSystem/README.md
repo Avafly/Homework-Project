@@ -6,7 +6,7 @@ Develop the prototype of a product using Arduino.
 
 ### What did I do
 
-A melody player that does not need touch.
+A melody player that can run without touch.
 
 
 
