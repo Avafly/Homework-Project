@@ -37,11 +37,17 @@ Use the following plaintext and ciphertext to check if the solution is correct.
 
 To decrypt RSA, I have to find parameters `p` and `q` using [find_pq()](https://github.com/Avafly/Homework-Project/tree/master/InformationSecurity/ISProject2_RSA.c) function.
 
-<img src="./img/rsa_pq.png" alt="result" width="300" />
+<img src="./img/rsa_pq.png" alt="result" width="450" />
 
 Next, the result can be obtained by [ISProject2_RSA.py](https://github.com/Avafly/Homework-Project/tree/master/InformationSecurity/ISProject2_RSA.py)
 
-<img src="./img/result_rsa.png" alt="result" width="300" />
+<img src="./img/result_rsa.png" alt="result" width="450" />
+
+Check if the solution is correct
+
+<img src="./img/rsa_check1.png" alt="result" width="400" />
+
+<img src="./img/rsa_check1.png" alt="result" width="400" />
 
 
 
@@ -51,4 +57,4 @@ Next, the result can be obtained by [ISProject2_RSA.py](https://github.com/Avafl
 
 Result
 
-<img src="./img/elgamal_result.png" alt="result" width="300" />
+<img src="./img/elgamal_result.png" alt="result" width="450" />
