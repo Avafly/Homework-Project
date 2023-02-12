@@ -45,9 +45,9 @@ Next, the result can be obtained by [ISProject2_RSA.py](https://github.com/Avafl
 
 Check if the solution is correct
 
-<img src="./img/rsa_check1.png" alt="result" width="400" />
+<img src="./img/rsa_check1.png" alt="result" width="300" />
 
-<img src="./img/rsa_check1.png" alt="result" width="400" />
+<img src="./img/rsa_check1.png" alt="result" width="300" />
 
 
 
