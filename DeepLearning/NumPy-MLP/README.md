@@ -2,7 +2,9 @@
 
 Construct a MLP network using NumPy to implement backpropagation and gradient descent. The goal is to build a neural network, instead of linear classifiers, to classify XOR labels.
 
-<img src="./img/xor_problem.png" alt="xor_problem" width="150" />
+**XOR problems:**
+
+<img src="./img/xor_problem.png" alt="xor_problem" width="250" />
 
 ### How to run
 
