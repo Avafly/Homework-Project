@@ -1,6 +1,6 @@
 ## 📕Binary Search Tree
 
-A simple BST program implemented by C and C++.
+A simple BST program implemented by C/C++.
 
 The program generates 15 random numbers between 1 and 100, inserts them as nodes into the tree, and then prints the tree.
 
