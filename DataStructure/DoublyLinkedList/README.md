@@ -6,7 +6,7 @@ The program creates a Doubly Linked List with the words in the text as nodes. Ea
 
 The `tTOKEN` structure  stores the string and its count, the `NODE` structure stores the addresses of `tTOKEN` and the left and right nodes, and the `LIST` structure stores the address of the Linked List's head and rear and the count of the nodes.
 
-You can delete the node, print the node, or exit. The program frees the memory when deleting a node or quits.
+You can delete the node, print the linked list, or quit. The program frees the memory when deleting a node or quits.
 
 ### How to run
 
