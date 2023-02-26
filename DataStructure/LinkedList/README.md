@@ -37,15 +37,15 @@ struct List {
 ### Function description
 
 ```c++
-int compare(int a, int b);  		// compares a and b
-List *create_list();        		// creates list
+int compare(int a, int b);          // compares a and b
+List *create_list();                // creates list
 List *destroy_list(List *pList);    // destroies the list and free the memory
 int list_count(List *pList);        // counts the number of node
 bool isEmpty(List *pList);          // returns whether the list is empty
 void print_list(List *pList);       // prints the linked list
 
-int add_node(List *pList, int data);									// adds a node using _insert()
-int remove_node(List *pList, int Key, int *dataOut);	// delete a node using _delete()
+int add_node(List *pList, int data);                  // adds a node using _insert()
+int remove_node(List *pList, int Key, int *dataOut);  // delete a node using _delete()
 int search_list(List *pList, int Key, int *dataOut);  // searches a node using _search()
 int _insert(List *pList, Node *pPre, int data);       // inserts a node
 void _delete(List *pList, Node *pPre, Node *pLoc, int *dataOut);    // deletes node
