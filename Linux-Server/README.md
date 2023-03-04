@@ -60,6 +60,4 @@ The de facto standard self hosted URL shortener in PHP.
 
 <img src="./img/yourls.png" alt="yourls" width="450" />
 
-
-
-And a lot other services ...
+**And a lot other services ...**
