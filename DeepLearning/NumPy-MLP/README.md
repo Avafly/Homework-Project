@@ -1,6 +1,6 @@
 ## 📕NumPy CNN
 
-Construct a MLP network using NumPy to implement backpropagation and gradient descent. The goal is to build a neural network, instead of linear classifiers, to classify XOR labels.
+Build a MLP network using NumPy to implement backpropagation and gradient descent. The goal is to build a neural network, instead of linear classifiers, to classify XOR labels.
 
 **XOR problems:**
 

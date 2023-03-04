@@ -1,8 +1,8 @@
 ## 📕NumPy CNN
 
-Construct a CNN network using NumPy, and train it using MNIST dataset to recognize digits.
+Build a CNN network using NumPy and train it using MNIST dataset to recognize digits.
 
-All the components of the CNN network, including forward and backward propagation, Convolutional layer, fully connected layer, pooling layer, and activation function, are implemented using matrix operations.
+All the components of the CNN network, including forward and backward propagation, Convolutional layer, fully connected layer, pooling layer, and activation function, are implemented using NumPy's matrix operations.
 
 ### How to run
 
