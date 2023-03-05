@@ -26,7 +26,7 @@ Github: [Link](https://github.com/navidrome/navidrome)
 
 Modern Music Server and Streamer compatible with Subsonic/Airsonic.
 
-A music streaming server. Compatible with Subsonic, and thus it is supported by many client Apps.
+A music streaming server. Compatible with Subsonic, thus it is supported by many Apps.
 
 <img src="./img/navidrome1.png" alt="navidrome" width="450" />
 
