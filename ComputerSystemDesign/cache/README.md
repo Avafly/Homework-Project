@@ -16,6 +16,6 @@ When switch 0 is off, the caches are not activated, and the LEDs blink once ever
 
 I wrote two `for` loops in C, which complete one iteration when the value of the `count` == 3,900,000.  The LEDs blink once every time an iteration is completed.
 
-<img src="/Users/cxlin/Documents/github/homework-project/ComputerSystemDesign/cache/hw8for.png" alt="hw8for" width="450" />
+<img src="./hw8for.png" alt="hw8for" width="450" />
 
 For more detail about how I enable caches in assembly language, see [here](https://github.com/Avafly/Homework-Project/blob/master/ComputerSystemDesign/cache/csd_arm.s)
