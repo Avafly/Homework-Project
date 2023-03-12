@@ -17,7 +17,7 @@ The following is a brief description of 3 tasks.
   * GIC configuration
   * Private Timer configuration
   * UART configuration
-  * TCB (Task-Control Block) setup for each user program (See  [[here](https://github.com/Avafly/Homework-Project/tree/master/ComputerSystemDesign/mini-system/TCB.pdf)])
+  * TCB (Task-Control Block) setup for each user program (See  [[here](https://github.com/Avafly/Homework-Project/blob/master/ComputerSystemDesign/a-mini-system/TCB.pdf)])
   * Stack setup for each user program
 * Task Scheduling (in **IRQ mode**)
   * Set the timer interval to 1ms for task scheduling
